@@ -1,0 +1,25 @@
+header h2{
+    text-align: center;
+}
+
+ .last{
+    display: flex;
+    gap: 30px;
+}
+.mainlast{
+    border: 5px solid rgba(53, 240, 181, 1);
+    font-size: 25px;
+    margin: 50px;
+    padding: 20px;
+}
+.lastlast{
+    border: 5px solid rgba(53, 240, 181, 1);
+    font-size: 25px;
+    margin: 50px;
+    padding: 20px;
+}
+.lasth1
+{
+text-align: center;
+}
+

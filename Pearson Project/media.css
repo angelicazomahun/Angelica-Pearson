@@ -1,0 +1,91 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+     padding: 0; 
+     color: #333; 
+    } 
+    header { 
+      background: #1a237e; 
+      color: white;
+       text-align: center; 
+       padding: 1rem; 
+       box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+      }
+       header h1 { margin: 0; 
+        font-size: 2.5em; 
+        animation: fadeIn 1s ease-out;
+       } 
+       nav ul {
+        
+        padding: 0; 
+        list-style: none; 
+      }
+       nav ul li {
+         display: inline; 
+         margin-right: 20px;
+         }
+          nav ul li a 
+          { color: white;
+             text-decoration: none;
+              transition: color 0.3s;
+             } 
+             nav ul li a:hover { 
+              color: #ffeb3b;
+             }
+              .section-bg { 
+                background-size: cover;
+                 background-position: center;
+                  background-repeat: no-repeat;
+                   color: white;
+                    padding: 60px 20px;
+                     position: relative;
+                      min-height: 100vh;
+                       display: flex; 
+                       align-items: center;
+                        justify-content: center;
+                       } 
+                       .content { 
+                        background: rgba(0, 0, 0, 0.6);
+                         padding: 30px; 
+                         border-radius: 10px; 
+                         max-width: 800px;
+                          width: 100%; 
+                        } 
+                        .content h2 {
+                           font-size: 2em;
+                           margin-bottom: 20px;
+                           } 
+                           .skills-list li {
+                             margin-bottom: 10px; 
+                             font-size: 1.1em; 
+                            } 
+                            .gallery {
+                               display: grid;
+                                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+                                gap: 10px;
+                               } 
+                               .gallery img, .gallery video { 
+                                width: 100%;
+                                 height: auto; 
+                                 border-radius: 5px; 
+                                 box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+                                 transition: transform 0.3s;
+                                 } 
+                                 .gallery img:hover, .gallery video:hover { 
+                                  transform: scale(1.05); 
+                                } 
+                                footer {
+                                  
+                                  background: #1a237e;
+                                   color: white;
+                                    text-align: center;
+                                     padding: 10px; 
+                                     position: fixed;
+                                      bottom: 0; width: 
+                                      100%; } 
+                                      /* Animations / @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } @keyframes slideInLeft { from { transform: translateX(-100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } } @keyframes slideInRight { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } } @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } } .fade-in { animation: fadeIn 1s ease-out; } .slide-in-left { animation: slideInLeft 1s ease-out; } .slide-in-right { animation: slideInRight 1s ease-out; } .slide-up { animation: slideUp 0.5s ease-out; } / Responsive Design */
+                                       @media (max-width: 768px) { 
+                                        .section-bg { padding: 30px 10px; }
+                                         .content { padding: 20px; }
+                                          header h1 { font-size: 2em; } 
+                      }
